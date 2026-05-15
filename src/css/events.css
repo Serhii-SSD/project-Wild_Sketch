@@ -14,10 +14,13 @@
   margin-bottom: 32px;
 }
 
-/* todo
 .events-list {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
 }
-*/
 
 .events-card {
   border: 1px solid #dbdada;
@@ -37,6 +40,10 @@
     border-right: none;
     border-left: none;
     padding: 8px 0px;
+
+    &:not(:last-child) {
+      border-bottom: none;
+    }
   }
 }
 
