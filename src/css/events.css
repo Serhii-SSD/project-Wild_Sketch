@@ -88,7 +88,7 @@
 
   @media screen and (min-width: 1440px) {
     flex-direction: row;
-    gap: 16px;
+    gap: 32px;
   }
 }
 
@@ -114,7 +114,7 @@
   font-size: 14px;
 
   @media screen and (min-width: 1440px) {
-    min-width: 172px;
+    text-align: right;
   }
 
   &:hover,
