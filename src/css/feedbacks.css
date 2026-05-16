@@ -22,7 +22,9 @@
     max-width: 1440px;
   }
 }
-
+feedback-text {
+  margin-bottom: 24px;
+}
 .feedbacker-name {
   font-weight: 700;
   font-size: 16px;
