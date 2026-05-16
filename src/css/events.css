@@ -49,15 +49,6 @@
 
 .events-card-image {
   border-radius: 16px;
-
-  /* todo: use picture with seperate image files*/
-  object-fit: cover;
-
-  @media screen and (min-width: 768px) {
-    /* todo: use picture with seperate image files*/
-    width: 144px;
-    height: 144px;
-  }
 }
 
 .events-card-details {
