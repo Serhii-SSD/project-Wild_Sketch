@@ -84,6 +84,7 @@
   }
   @media screen and (min-width: 1440px) {
     max-width: none;
+    max-width: 616px;
     margin: 0;
     flex-shrink: 0;
   }
