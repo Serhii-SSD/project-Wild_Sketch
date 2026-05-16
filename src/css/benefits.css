@@ -52,10 +52,6 @@
 
 .benefits-wrraper-text {
   width: 100%;
-  @media screen and (min-width: 768px) {
-  }
-  @media screen and (min-width: 1440px) {
-  }
 }
 .benefits-icon {
   width: 48px;
@@ -77,21 +73,18 @@
   line-height: 1.5;
   color: #0c0708;
 }
+
 .benefist-images {
   display: flex;
   justify-content: center;
   align-items: center;
-  @media screen and (min-width: 1440px) {
-  }
-}
-.benefist-images {
-  display: flex;
   @media screen and (min-width: 768px) {
-    padding-right: 91px;
-    padding-left: 91px;
+    max-width: 522px;
+    margin: 0 auto;
   }
   @media screen and (min-width: 1440px) {
-    padding: 0;
+    max-width: none;
+    margin: 0;
     flex-shrink: 0;
   }
 }
