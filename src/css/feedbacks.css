@@ -22,7 +22,7 @@
     max-width: 1440px;
   }
 }
-feedback-text {
+.feedback-text {
   margin-bottom: 24px;
 }
 .feedbacker-name {
@@ -93,4 +93,7 @@ li {
   flex-direction: row;
   padding: 0;
   gap: 2px;
+}
+.feedback-stars {
+  margin-bottom: 24px;
 }
