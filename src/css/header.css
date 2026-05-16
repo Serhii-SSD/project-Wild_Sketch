@@ -37,6 +37,10 @@
     opacity: 50%;
 }
 
+.mobile-menu-links-list-reference:active{
+    opacity: 70%;
+}
+
 .mobile-menu-close-button {
     display: none;
 
@@ -54,6 +58,10 @@
     opacity: 50%;
 }
 
+.mobile-menu-close-button:active{
+    opacity: 70%;
+}
+
 .header-actions-wrapper{
     display: flex;
     align-items: center;
@@ -61,10 +69,12 @@
 }
 
 .header-register-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     width: 97px;
     height: 40px;
     
-
     font-weight: 500;
 
     background: #ffb780;
@@ -77,6 +87,10 @@
 .header-register-button:hover,
 .header-register-button:focus{
     opacity: 50%;
+}
+
+.header-register-button:active{
+    opacity: 70%;
 }
 
 
@@ -98,6 +112,10 @@
 .header-menu-button:hover,
 .header-menu-button:focus{
     opacity: 50%;
+}
+
+.header-menu-button:active{
+    opacity: 70%;
 }
 
 @media screen and (min-width: 768px) {

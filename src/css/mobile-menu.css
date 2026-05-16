@@ -39,7 +39,8 @@
     .mobile-menu.is-open .mobile-menu-links-list-reference {
         display: flex;
         justify-content: center;
-        
+        align-items: center;
+
         width: 335px;
         height: 44px;
     }
