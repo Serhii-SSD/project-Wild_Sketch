@@ -10,6 +10,11 @@
   @media screen and (min-width: 1440px) {
     justify-content: center;
   }
+  padding: 8px 0;
+  margin-bottom: 32px;
+  @media screen and (min-width: 1440px) {
+    margin: 0;
+  }
 }
 .benefist-wrraper {
   @media screen and (min-width: 1440px) {
@@ -43,11 +48,6 @@
   }
 }
 .benefist-list-wraper {
-  padding: 8px 0;
-  margin-bottom: 32px;
-  @media screen and (min-width: 1440px) {
-    margin: 0;
-  }
 }
 
 .benefits-wrraper-text {
