@@ -6,7 +6,15 @@
       <div>
         <div>
           <label class="register-form-label" for="user-name">Name*</label>
-          <input class="register-form-input" type="text" placeholder="Emma" />
+
+          <input
+            class="register-form-input"
+            type="text"
+            placeholder="Emma"
+            required
+            pattern="^[a-zA-Z\s\.]{5,64}$"
+            title="Ім'я повинно містити лише латинські літери, пробіли або крапки, та бути довжиною від 5 до 64 символів"
+          />
         </div>
         <div>
           <label class="register-form-label" for="user-email">Email*</label>
@@ -14,6 +22,9 @@
           <input
             class="register-form-input"
             type="email"
+            required
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            title="Будь ласка, введіть коректну адресу електронної пошти (наприклад, example@mail.com)"
             placeholder="hello@wildsketch.com"
           />
         </div>
@@ -23,6 +34,7 @@
           >
           <textarea
             class="register-textarea"
+            maxlength="500"
             placeholder="Type your skills..."
           ></textarea>
         </div>
