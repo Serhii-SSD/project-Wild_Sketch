@@ -49,15 +49,6 @@
 
 .events-card-image {
   border-radius: 16px;
-
-  /* todo: use picture with seperate image files*/
-  object-fit: cover;
-
-  @media screen and (min-width: 768px) {
-    /* todo: use picture with seperate image files*/
-    width: 144px;
-    height: 144px;
-  }
 }
 
 .events-card-details {
@@ -69,11 +60,9 @@
     flex-direction: row-reverse;
     align-items: baseline;
     gap: 24px;
-  }
-
-  @media screen and (min-width: 1440px) {
     justify-content: space-between;
     flex-grow: 1;
+    align-items: center;
   }
 }
 
@@ -84,6 +73,7 @@
   @media screen and (min-width: 768px) {
     flex-direction: column;
     align-items: end;
+    gap: 4px;
   }
 
   @media screen and (min-width: 1440px) {
@@ -141,6 +131,16 @@
 
   @media screen and (min-width: 768px) {
     max-width: 204px;
+  }
+  @media screen and (min-width: 1440px) {
+    max-width: 693px;
+  }
+}
+
+/* to better match the Design */
+.events-card:nth-child(4) .events-card-title {
+  @media screen and (min-width: 768px) {
+    max-width: 218px;
   }
   @media screen and (min-width: 1440px) {
     max-width: 693px;
