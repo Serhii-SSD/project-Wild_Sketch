@@ -9,6 +9,8 @@
   flex-direction: column;
   margin-bottom: 32px;
   @media screen and (min-width: 1440px) {
+    justify-content: center;
+    margin: 0;
   }
 }
 .benefist-wrraper {
