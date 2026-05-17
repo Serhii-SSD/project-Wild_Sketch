@@ -131,7 +131,16 @@
 
   @media screen and (min-width: 768px) {
     max-width: 204px;
-    /* flex-grow: 1; */
+  }
+  @media screen and (min-width: 1440px) {
+    max-width: 693px;
+  }
+}
+
+/* to better match the Design */
+.events-card:nth-child(4) .events-card-title {
+  @media screen and (min-width: 768px) {
+    max-width: 218px;
   }
   @media screen and (min-width: 1440px) {
     max-width: 693px;
