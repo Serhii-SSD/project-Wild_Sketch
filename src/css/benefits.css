@@ -7,13 +7,8 @@
 .benefits-section {
   display: flex;
   flex-direction: column;
-  @media screen and (min-width: 1440px) {
-    justify-content: center;
-  }
-  padding: 8px 0;
   margin-bottom: 32px;
   @media screen and (min-width: 1440px) {
-    margin: 0;
   }
 }
 .benefist-wrraper {
@@ -48,6 +43,7 @@
   }
 }
 .benefist-list-wraper {
+  padding: 8px 0;
 }
 
 .benefits-wrraper-text {
