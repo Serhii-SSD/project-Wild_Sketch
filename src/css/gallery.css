@@ -48,6 +48,7 @@
   flex-wrap: wrap;
   gap: 16px;
   width: 100%;
+  margin-bottom: 16px;
 
   @media screen and (min-width: 768px) {
     flex-wrap: nowrap;
@@ -69,10 +70,8 @@
   }
 
   @media screen and (min-width: 768px) {
-    /* Віднімаємо 2 проміжки по 24px (48px) і ділимо на 3 */
     width: calc((100% - (24px * 2)) / 3);
 
-    /* Перебиваємо мобільний :last-child, щоб третя картка стала як усі */
     &:last-child {
       width: calc((100% - (24px * 2)) / 3);
     }
