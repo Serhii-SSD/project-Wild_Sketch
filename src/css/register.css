@@ -1,16 +1,16 @@
 .register {
-  padding: 64px 20px;
+  padding: 64px 0;
 }
 
 @media screen and (min-width: 768px) {
   .register {
-    padding: 64px 32px;
+    padding: 64px 0;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .register {
-    padding: 112px 64px;
+    padding: 112px 0;
   }
 }
 
