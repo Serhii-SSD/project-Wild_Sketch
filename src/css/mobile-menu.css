@@ -1,6 +1,11 @@
 @media screen and (max-width: 767px) {
+
+    body:has(.is-open){
+        overflow-y: hidden;
+    }
+
 .mobile-menu.is-open {
-        position: absolute;
+        position: fixed;
         top: 64px;
         left: 0;
 
@@ -13,7 +18,6 @@
         height: 100%;
 
         background-color: #faf6f3;
-
     }
 
     .mobile-menu.is-open .mobile-menu-close-button {
