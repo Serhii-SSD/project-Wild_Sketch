@@ -1,5 +1,8 @@
 .feedback-text {
+  font-size: 18px;
   margin-bottom: 24px;
+
+  flex-grow: 1;
 }
 
 .feedbacker-name {
@@ -44,12 +47,14 @@
 @media screen and (min-width: 768px) {
   .feedback-list-item {
     width: calc((100% - 24px) / 2);
+    display: flex;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .feedback-list-item {
     width: calc((100% - 64px) / 3);
+    display: flex;
   }
 }
 
@@ -63,6 +68,9 @@ li {
   border-radius: 16px;
   padding: 32px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .feedback-stars {
