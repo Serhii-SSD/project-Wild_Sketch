@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 400 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/caveat/v23/Wnz6HAc5bAfYB2Q7azYYmg8.woff2)
+  src: url(/fonts/Wnz6HAc5bAfYB2Q7azYYmg8.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -15,7 +15,7 @@
   font-style: normal;
   font-weight: 400 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/caveat/v23/Wnz6HAc5bAfYB2Q7YjYYmg8.woff2)
+  src: url(/fonts/Wnz6HAc5bAfYB2Q7YjYYmg8.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -25,7 +25,7 @@
   font-style: normal;
   font-weight: 400 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/caveat/v23/Wnz6HAc5bAfYB2Q7aDYYmg8.woff2)
+  src: url(/fonts/Wnz6HAc5bAfYB2Q7aDYYmg8.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -38,7 +38,7 @@
   font-style: normal;
   font-weight: 400 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/caveat/v23/Wnz6HAc5bAfYB2Q7ZjYY.woff2)
+  src: url(/fonts/Wnz6HAc5bAfYB2Q7ZjYY.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -51,7 +51,7 @@
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l_6gHrRpiYlJ.woff2)
+  src: url(/fonts/Iurf6YBj_oCad4k1l_6gHrRpiYlJ.woff2)
     format('woff2');
   unicode-range:
     U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1,
@@ -70,7 +70,7 @@
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l_6gHrFpiQ.woff2)
+  src: url(/fonts/Iurf6YBj_oCad4k1l_6gHrFpiQ.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -83,7 +83,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l5qjHrRpiYlJ.woff2)
+  src: url(/fonts/Iurf6YBj_oCad4k1l5qjHrRpiYlJ.woff2)
     format('woff2');
   unicode-range:
     U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1,
@@ -102,7 +102,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l5qjHrFpiQ.woff2)
+  src: url(/fonts/Iurf6YBj_oCad4k1l5qjHrFpiQ.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -115,7 +115,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/tajawal/v12/Iura6YBj_oCad4k1nzSBC45I.woff2)
+  src: url(/fonts/Iura6YBj_oCad4k1nzSBC45I.woff2)
     format('woff2');
   unicode-range:
     U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1,
@@ -134,7 +134,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/tajawal/v12/Iura6YBj_oCad4k1nzGBCw.woff2)
+  src: url(/fonts/Iura6YBj_oCad4k1nzGBCw.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -147,7 +147,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l8KiHrRpiYlJ.woff2)
+  src: url(/fonts/Iurf6YBj_oCad4k1l8KiHrRpiYlJ.woff2)
     format('woff2');
   unicode-range:
     U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1,
@@ -166,7 +166,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l8KiHrFpiQ.woff2)
+  src: url(/fonts/Iurf6YBj_oCad4k1l8KiHrFpiQ.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -179,7 +179,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l4qkHrRpiYlJ.woff2)
+  src: url(/fonts/Iurf6YBj_oCad4k1l4qkHrRpiYlJ.woff2)
     format('woff2');
   unicode-range:
     U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1,
@@ -198,7 +198,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l4qkHrFpiQ.woff2)
+  src: url(/fonts/Iurf6YBj_oCad4k1l4qkHrFpiQ.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -211,7 +211,7 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l5anHrRpiYlJ.woff2)
+  src: url(/fonts/Iurf6YBj_oCad4k1l5anHrRpiYlJ.woff2)
     format('woff2');
   unicode-range:
     U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1,
@@ -230,7 +230,7 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l5anHrFpiQ.woff2)
+  src: url(/fonts/Iurf6YBj_oCad4k1l5anHrFpiQ.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -243,7 +243,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l7KmHrRpiYlJ.woff2)
+  src: url(/fonts/Iurf6YBj_oCad4k1l7KmHrRpiYlJ.woff2)
     format('woff2');
   unicode-range:
     U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1,
@@ -262,7 +262,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l7KmHrFpiQ.woff2)
+  src: url(/fonts/Iurf6YBj_oCad4k1l7KmHrFpiQ.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
