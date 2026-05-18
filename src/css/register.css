@@ -17,11 +17,23 @@
     margin-bottom: 80px;
   }
 }
+.register-form {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1440px) {
+  .register-form {
+    margin-bottom: 0;
+  }
+}
 
 .register-form-label {
   color: #0c0708;
   display: block;
   margin-bottom: 8px;
+}
+.input-div {
+  margin-bottom: 24px;
 }
 
 .register-form-input {
@@ -31,7 +43,7 @@
   font-weight: 400;
   font-size: 16px;
   color: rgba(12, 7, 8, 0.6);
-  margin-bottom: 24px;
+
   border: 1px solid rgba(12, 7, 8, 0.15);
   border-radius: 12px;
   outline: transparent;
@@ -83,7 +95,6 @@
   letter-spacing: 0.04em;
   color: rgba(12, 7, 8, 0.6);
   padding: 12px;
-  margin-bottom: 24px;
   border: 1px solid rgba(12, 7, 8, 0.15);
   border-radius: 12px;
   resize: none;
@@ -106,7 +117,6 @@
   height: 44px;
   align-items: center;
   border-radius: 100px;
-  margin-bottom: 32px;
   font-family: 'Tajawal', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -127,7 +137,6 @@
 @media screen and (min-width: 1440px) {
   .register-button {
     width: 304px;
-    margin-bottom: 0;
   }
 }
 
