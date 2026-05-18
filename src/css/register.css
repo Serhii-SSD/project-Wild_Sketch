@@ -2,25 +2,6 @@
   font-family: 'Tajawal', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  padding: 64px 20px;
-  display: block;
-  margin: 0 auto;
-  min-width: 320px;
-  max-width: 375px;
-}
-
-@media screen and (min-width: 768px) {
-  .register {
-    padding: 64px 32px;
-    max-width: 768px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .register {
-    padding: 112px 64px;
-    max-width: 1440px;
-  }
 }
 
 .register-header {
@@ -50,7 +31,7 @@
   font-weight: 400;
   font-size: 16px;
   color: rgba(12, 7, 8, 0.6);
-  margin-bottom: 4px;
+  margin-bottom: 24px;
   border: 1px solid rgba(12, 7, 8, 0.15);
   border-radius: 12px;
   outline: transparent;
@@ -87,8 +68,9 @@
   margin-bottom: 24px;
   padding-left: 12px;
 }
-.register-form-input:not(:not(:placeholder-shown):invalid)
-  + .input-error-message {
+
+.register-form-input:valid + .input-error-message,
+.register-form-input:placeholder-shown + .input-error-message {
   margin-bottom: 24px;
 }
 
@@ -145,6 +127,7 @@
 @media screen and (min-width: 1440px) {
   .register-button {
     width: 304px;
+    margin-bottom: 0;
   }
 }
 
@@ -163,6 +146,7 @@
     width: calc((100% - 32px) / 2);
   }
 }
+
 .register-picture {
   border-radius: 16px;
   overflow: hidden;
