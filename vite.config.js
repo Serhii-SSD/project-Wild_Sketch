@@ -6,6 +6,8 @@ import SortCss from 'postcss-sort-media-queries';
 
 export default defineConfig(({ command }) => {
   return {
+    base: '/project-Wild_Sketch/', 
+
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
@@ -34,7 +36,7 @@ export default defineConfig(({ command }) => {
           },
         },
       },
-      outDir: '../dist',
+      outDir: '../dist', 
       emptyOutDir: true,
     },
     plugins: [
